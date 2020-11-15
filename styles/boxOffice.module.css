@@ -1,0 +1,63 @@
+.boxOffice {
+   margin: 10px;
+   color: #fffffe;
+   background-color: #004643;
+   padding: 20px;
+}
+
+.gridLayout {
+   display: flex;
+   order: 3;
+   justify-content: center;
+}
+
+.divBoxOffice {
+}
+
+.actorGrid {
+   margin: 10px;
+}
+
+.btn {
+   background: #ac8142;
+   height: 50px;
+   width: 25%;
+
+   margin: 10px;
+   border: none;
+
+   color: white;
+   font-size: 1.2rem;
+   padding-top: 5px;
+   transition: 1s;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background: transparent;
+}
+
+.inpt {
+   width: 25%;
+   height: 55px;
+   margin: 10px;
+}
+
+.radioInpt {
+   margin-top: 5px;
+   width: 35px;
+   height: 22px;
+}
+.radioInpt:checked:after {
+   width: 22px;
+   height: 22px;
+   border-radius: 15px;
+
+   right: -6px;
+   position: relative;
+   background-color: #dd8604;
+   content: '';
+   display: inline-block;
+   visibility: visible;
+   border: 2px solid white;
+}
